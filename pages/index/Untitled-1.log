@@ -1,0 +1,11 @@
+var Component = Vue.extend({
+  mixins: [myMixin]，
+  created（）{
+
+  }，
+  methods：{
+      hello(){
+          
+      }
+  }
+})

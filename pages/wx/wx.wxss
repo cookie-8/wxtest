@@ -1,0 +1,81 @@
+/* pages/wx/wx.wxss */
+
+.wx-body {
+  width:100%;
+  height: 100%;
+ 
+}
+.wx-header{
+  height:60rpx;
+  background-color:black;
+  color:white;
+  text-align: center;
+}
+.bg01{
+   width:100%;
+  height:480rpx;
+  position: relative;
+}
+.bg-imag{
+   width:100%;
+   height:480rpx;
+   background-size: 100% 100%;
+}
+.go{
+  width:150rpx;
+  height:80rpx;
+  position:absolute;
+  top:20rpx;
+  right:20rpx;
+
+}
+.go image{
+  width:150rpx;
+  height:80rpx;
+  background-size: 80% 90%;
+}
+.sofa{
+  width:150rpx;
+  height:150rpx;
+  position:absolute;
+  top:100rpx;
+  left:160rpx;
+  animation: fly01 1.5s linear infinite alternate;/*无穷次*//*逆播放*/
+}
+.sofa image{
+  width:150rpx;
+  height:150rpx;
+  background-size: 100% 100%;
+}
+@keyframes fly01{
+  from{
+    transform: translateY(-20rpx);
+  }
+  to{
+    transform: translateY(20rpx);
+  }
+
+}
+.wx-imgbox{
+  height:1200rpx;
+}
+.wx-img{
+  height:360rpx;
+  display: flex;
+
+}
+.wx-imgitem{
+  flex: 1;
+}
+.imag-left{
+  width:100%;
+  height: 100%;
+}
+.imag-right{
+  width:100%;
+  height: 100%;
+}
+.wx-footer{
+  height:50rpx;
+  background-color: #F5F5DC;
+}

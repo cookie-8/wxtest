@@ -1,0 +1,36 @@
+{
+
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/wx/wx"
+    ],
+
+    "window": {
+        "navigationBarTitleText": "小柚子",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F5F5DC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F5F5DC"
+    },
+
+    "tabBar": {
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+              "pagePath": "pages/wx/wx",
+              "text": "小柚子"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "查看日志"
+            }
+        ]
+    }
+
+
+
+
+}

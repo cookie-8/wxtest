@@ -1,0 +1,32 @@
+<!--pages/wx/wx.wxml-->
+<view class="wx-body">
+  <view class="wx-header">
+    {{te_title}}
+  </view>
+   <scroll-view></scroll-view>
+  
+  <!-- 第一张 -->
+  <view class="bg01">
+    <image class="bg-imag" src='imag/01-bg.png'></image>
+
+    <view class="go"><image src='imag/00-go.png'></image></view>
+
+    <view class="sofa"><image src='imag/01-sofa.png'></image></view>
+  
+  </view>
+ 
+  <view style='text-align:center; font-size:14rpx'>--到底啦--</view>
+  <view class="wx-footer">
+
+  </view>
+  
+<!-- 朦层点击图片放大 -->
+  <view>
+    <block wx:if="{{covershow}}">
+      <view class="wx-cover">
+      </view>
+    </block>
+  </view>
+
+
+</view>
